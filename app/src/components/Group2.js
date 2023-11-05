@@ -1,15 +1,12 @@
 import React from 'react'
 import {Tabs, Tab, Button} from "@nextui-org/react"; 
-
 import {Card, CardHeader, CardBody} from "@nextui-org/react";
 
 export const Group2 = () => {
-    const variants = [
-        "underlined",
-      ];
+    const variants = ["underlined"];
     
       return (
-        <div className="flex flex-wrap gap p-[21px]">
+        <div className="flex flex-wrap p-[21px]">
             <Card className="py-4 rounded-[30px] h-[53.5vh]">
                 <CardHeader className="pb-0 pt-2 px-4 flex-col items-between">
                     {variants.map((variant) => (
@@ -37,12 +34,12 @@ export const Group2 = () => {
                             Eye Health Gummies - Look after your eyes the tasty way
                         </li>
                     </ul>
+                    <Card radius="lg" className="rounded-[30px]">
+                        <Button className="h-[61px] text-[18px] bg-gradient-to-l from-violet-500 to-blue-700 text-white font-bold">
+                            Generate Code
+                        </Button>
+                    </Card>
                 </CardBody>
-                <Card className="py-4 rounded-[30px] h-[10vh]">
-                    <Button color="primary">
-                        Button
-                    </Button>
-                </Card>
             </Card>
         </div>
     )
