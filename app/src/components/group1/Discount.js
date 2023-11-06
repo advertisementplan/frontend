@@ -9,6 +9,7 @@ export const Discount = () => {
                 width={60}
                 height={60}
                 src="/offerslogo1.svg"
+                alt='img'
             >
             </Image>
        </div>

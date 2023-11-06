@@ -6,7 +6,7 @@ export const Group2 = () => {
     const variants = ["underlined"];
     
       return (
-        <div className="flex flex-wrap p-[21px]">
+        <div className="flex flex-wrap pt-5 overflow-hidden">
             <Card className="py-4 rounded-[30px] h-[53.5vh]">
                 <CardHeader className="pb-0 pt-2 px-4 flex-col items-between">
                     {variants.map((variant) => (

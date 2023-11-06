@@ -9,6 +9,7 @@ export const ProductSlider = () => {
             width={298}
             height={298}
             src="/product.png"
+            alt="img"
         >
         </Image>
     </div>
