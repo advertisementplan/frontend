@@ -10,6 +10,7 @@ module.exports = {
 
   ],
   theme: {
+    
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -18,9 +19,18 @@ module.exports = {
       },
       boxShadow:{
         '3xl':"0px 2px 20px 0px rgba(0, 0, 0, 0.10)"
-      }
+      },
+      globalFont:{
+        'av': "Avenir-Next",
+      },
+      colors:{
+        gray:"#9B9BA1"
+      },
+      
     },
   },
   darkMode: "class",
-  plugins: [nextui()]
+  plugins: [nextui({
+    addCommonColors:true,
+  })]
 }
