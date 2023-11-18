@@ -4,11 +4,11 @@ export const CopyIcon = ({ size, height, width, ...props }) => {
     <svg
       fill="none"
       height={height || 20}
-      shape-rendering="geometricPrecision"
+      shapeRendering="auto"
       stroke="currentColor"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-width="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="1.5"
       viewBox="0 0 24 24"
       width={width || 20}
       {...props}
